@@ -1,3 +1,4 @@
+Here is the exact text you should copy and paste into your `README.md` file on GitHub.
 
 ```markdown
 # Nano-Hybrid: Lightweight Lung Cancer Detection 🫁
@@ -58,45 +59,5 @@ Open `Nano_Hybrid_Training.ipynb` in Jupyter or Colab.
 * `Nano_Hybrid_Training.ipynb`: Complete training and visualization code.
 
 ```
-
-***
-
-### **Step 3: Upload Your Files**
-Now you need to put your actual work into the repo.
-
-**Method A: The "Easy" Way (Web Upload)**
-1.  In your repository, click **Add file** > **Upload files**.
-2.  **Drag and drop** the following files from your computer:
-    * `Nano_Hybrid_Training.ipynb` (Download this from Colab: File > Download .ipynb).
-    * `best_iq_model_300epochs.pth`
-    * `best_chest_model_300epochs.pth`
-3.  **Important:** Create a folder named `images` for your screenshots so they show up in the README properly.
-    * *GitHub Web Trick:* You cannot create empty folders. Instead, rename your images on your computer to `images/efficiency_comparison.png`, `images/gradcam_result.jpg`, etc., and then drag them in. Or, just upload them to the root folder and update the README links to remove `images/`.
-
-**Method B: The "Pro" Way (Command Line)**
-If you have Git installed on your computer:
-1.  Open your terminal/command prompt.
-2.  Clone the repo:
-    `git clone https://github.com/Hazik-Jaffri/Nano-Hybrid-Lung-Cancer-Detection.git`
-3.  Enter the folder:
-    `cd Nano-Hybrid-Lung-Cancer-Detection`
-4.  **Paste** your `.ipynb` file, `.pth` files, and your images into this folder.
-5.  Create an images folder and move your pictures there:
-    `mkdir images`
-    (Move your png/jpg files into `images/`)
-6.  Push to GitHub:
-    ```bash
-    git add .
-    git commit -m "Initial release of Nano-Hybrid model and weights"
-    git push
-    ```
-
-### **Checklist: Did you include everything?**
-* [ ] **Code:** The Jupyter Notebook (`.ipynb`).
-* [ ] **Models:** The two `.pth` files.
-* [ ] **Visuals:** The Grad-CAM image, Efficiency Plot, and Confusion Matrices.
-* [ ] **README:** The text I provided above.
-
-Once this is done, you can paste the link to your new repository into your Research Paper under the **"Code Availability"** section!
 
 ```
