@@ -1,5 +1,3 @@
-
-```markdown
 # Nano-Hybrid: Lightweight Lung Cancer Detection
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
@@ -39,25 +37,3 @@ The model focuses on pulmonary nodules (red/yellow) rather than background artif
 1. Clone the repository
    ```bash
    git clone [https://github.com/Hazik-Jaffri/Nano-Hybrid-Lung-Cancer-Detection.git](https://github.com/Hazik-Jaffri/Nano-Hybrid-Lung-Cancer-Detection.git)
-
-```
-
-2. Install dependencies
-```bash
-pip install torch torchvision matplotlib seaborn scikit-learn
-
-```
-
-
-3. Run Training
-Open Nano_Hybrid_Training.ipynb in Jupyter Notebook or Google Colab.
-
-## Files Included
-
-* best_iq_model_300epochs.pth: Best weights for IQ dataset.
-* best_chest_model_300epochs.pth: Best weights for Chest CT dataset.
-* Nano_Hybrid_Training.ipynb: Complete training and visualization code.
-
-```
-
-```
