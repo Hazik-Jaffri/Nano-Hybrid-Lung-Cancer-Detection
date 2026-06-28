@@ -1,8 +1,3 @@
-You are completely right to be concerned. The `**` symbols are **Markdown syntax**—they tell GitHub to make the text **bold** when it is displayed on the website. However, looking at the raw text can indeed look messy and "noisy."
-
-Here is a **Cleaner, Professional Version** for your README. I have removed the aggressive bolding in the text so it looks much smoother, while keeping the necessary code (like `#` for headings and `|` for tables) so it formats correctly on GitHub.
-
-**Copy and paste this exact block into your README.md file:**
 
 ```markdown
 # Nano-Hybrid: Lightweight Lung Cancer Detection
